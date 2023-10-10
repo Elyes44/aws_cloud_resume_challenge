@@ -1,4 +1,4 @@
-name: Upload resume
+name: Deploy resume
 
 on:
   workflow_dispatch:
