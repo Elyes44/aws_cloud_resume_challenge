@@ -18,7 +18,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com'; // Mettez à jour avec les détails de votre serveur SMTP
         $mail->SMTPAuth = true;
-        $mail->Username = 'abidi.medelyes@gmail.com'; // Mettez à jour avec votre adresse e-mail
+        $mail->Username = 'medelyes.abidi@gmail.com'; // Mettez à jour avec votre adresse e-mail
         $mail->Password = 'uadhsylplnwuoium'; // Mettez à jour avec votre mot de passe
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;
